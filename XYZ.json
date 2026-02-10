@@ -1,0 +1,28 @@
+{
+  "businessName": "Shree Govind Tours & Travels",
+  "locations": ["Lakhisarai", "Ranchi"],
+
+  "nationalTours": [
+    {
+      "name": "Goa Beach Tour",
+      "price": "12999",
+      "nights": "3 Nights / 4 Days",
+      "details": "Includes hotel stay, breakfast, transfers"
+    },
+    {
+      "name": "Manali Hill Station",
+      "price": "10499",
+      "nights": "4 Nights / 5 Days",
+      "details": "Mountain view hotel + cab + meals"
+    }
+  ],
+
+  "internationalTours": [
+    {
+      "name": "Dubai Trip",
+      "price": "45999",
+      "nights": "4 Nights / 5 Days",
+      "details": "City tour, hotel, desert safari"
+    }
+  ]
+}
