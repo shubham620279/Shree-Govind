@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef7fa;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #0096dc; /* Sky Blue */
+    padding: 20px;
+    color: white;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* HERO */
+.hero {
+    background: url('https://via.placeholder.com/1600x650?text=Premium+Travel+Experience') center/cover;
+    padding: 160px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* PRICE TABLE */
+.price-table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    width: 280px;
+    background: white;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    border-top: 5px solid #00a86b; /* Green */
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff8500;
+}
+
+.price-card ul {
+    text-align: left;
+}
+
+.price-card li {
+    margin: 8px 0;
+}
+
+/* HOTEL GRID */
+.hotel-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hotel-item {
+    width: 240px;
+    background: white;
+    margin: 10px;
+    padding: 12px;
+    border-left: 5px solid #ff8500;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+.contact form {
+    width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background: #0096dc;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
